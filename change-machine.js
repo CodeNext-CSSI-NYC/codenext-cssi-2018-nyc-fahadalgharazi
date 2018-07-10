@@ -19,9 +19,9 @@ console.log("welcome to the CHANGE MACHINE");
 quarter = math.floor(cents/25);
 console.log("quarter = " + quarter);
  remeinder = cents%25;
- dime =remeinder/10;
- remeinder=remeinder%10;
- nickel=remeinder/5;
- remeinder=remeinder%5;
- penny=remeinder/1;
+ dime =math.floor(remeinder/10);
+ remeinder=math.floor(remeinder%10);
+ nickel=math.floor(remeinder/5);
+ remeinder=math.floor(remeinder%5);
+ penny=math.floor(remeinder/1);
 
