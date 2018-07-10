@@ -14,9 +14,9 @@ var readline = require("readline-sync");
 // var first = readline.question("Enter a word any word you can think of ...");
 // console.log("The word " + first +" starts with the letter " + first.substring(0,1));
 // 4. Ask the user to enter two numbers, and print out "The average of ___ and ___ is ____", but with the blanks filled in.
-var number = readline.question("Enter a number...");
-var number2 = readline.question("Enter another number...");
-console.log("The average of " + number +" and" + number2 + " is" + (number + number2)/2);
+var number = parseInt(readline.question("Enter a number..."));
+var number2 = parseInt(readline.question("Enter another number..."));
+console.log("The average of " + number  + " and "+ number2 + " is " + (number + number2)/2);
 
 
 
