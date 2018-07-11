@@ -107,28 +107,28 @@ var readline = require("readline-sync");
 // Note that we usually don't bother with switch statements unless there are more than a few elses.
 
 
-var num = readline.question("pick a number from 1-7 =-=->");
-if(num == 1){
- console.log(sun);
-}
- else if (num == 2){
- 	console.log("mon");
- }
- else if (num == 3){
- 	console.log("tue");
- }
- else if (num == 4){
- 	console.log("wed");
- }
- else if (num == 5){
- 	console.log("thu");
- }
- else if (num == 6){
- 	console.log("fri");
- }
-else if (num == 7){
- 	console.log("sat"); 
- }
+// var num = readline.question("pick a number from 1-7 =-=->");
+// if(num == 1){
+//  console.log(sun);
+// }
+//  else if (num == 2){
+//  	console.log("mon");
+//  }
+//  else if (num == 3){
+//  	console.log("tue");
+//  }
+//  else if (num == 4){
+//  	console.log("wed");
+//  }
+//  else if (num == 5){
+//  	console.log("thu");
+//  }
+//  else if (num == 6){
+//  	console.log("fri");
+//  }
+// else if (num == 7){
+//  	console.log("sat"); 
+//  }
 
 
 
