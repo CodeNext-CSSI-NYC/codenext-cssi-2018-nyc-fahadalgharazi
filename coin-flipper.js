@@ -8,7 +8,7 @@ var guess = readline.question("guess heads or tails=-=-=->");
 
 
  var ran = Math.random()
-if(0.5<ran&& guess =="heads"){
+if(0.5<ran && guess =="heads"){
 	console.log("you guessed correctly");
 }
 else if(0.5<ran && guess == "tails"){
