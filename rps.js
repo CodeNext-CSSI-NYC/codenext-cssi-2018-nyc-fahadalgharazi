@@ -4,7 +4,7 @@ const compNum = Math.random()*3;
 let compChoice ;
 let playerChoice = readline.question("write rock,paper, or scissor=-=->");
 
-if(compNum == 0-1){
+if(compNum == 1){
  let compChoice = "rock";
  if(compNum == 1-2){
  	let compChoice = "scissors";
