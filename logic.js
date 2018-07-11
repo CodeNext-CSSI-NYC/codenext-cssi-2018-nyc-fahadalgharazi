@@ -42,6 +42,6 @@
 // Your guess:false
 
 // 10.
-let a = 1;
-console.log(2 == a++);
+// let a = 1;
+// console.log(2 == a++);
 // Your guess:false
