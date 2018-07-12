@@ -3,10 +3,10 @@
 // MAKE SURE YOU CHOOSE GOOD, RELEVANT NAMES FOR YOUR FUNCTIONS AND PARAMETERS
 
 // 1a. Write (declare) a function that prints out "meow"
-function cat(){
-	console.log("meow");
+// function cat(){
+// 	console.log("meow");
 
-} 
+// } 
 
 
 
@@ -18,10 +18,10 @@ function cat(){
 
 
 // 2a. Write (declare) a function that takes one parameter and prints out the square of that number
-function square(num1){
-	console.log (num1**2);
+// function square(num1){
+// 	console.log (num1**2);
 
-}
+// }
 
 
 
@@ -61,7 +61,7 @@ function square(num1){
 // 	let greetings = "Hello "
 // 	return greetings + name;
 
-}
+//}
 // 4b. Call the function and store the result in a variable. Then, print out that variable.
 // Repeat this three times with different names.
     // let result = hello("Fahad");
@@ -69,8 +69,46 @@ function square(num1){
 
 // 5a. Write (declare) a function that takes two parameters and
 // returns (not prints out, just returns) the average of the parameters.
-	function average(num1 , num2 )
+function average(num1 , num2){
+	return (num1 + num2 )/2;
+}
+
+
+
 // 5b. Call the function and store the result in a variable. Then, print out that variable
 // in a sentence like "The average is _____".
 // Repeat this three times with different numbers. What happens if you pass in
 // something that isn't a number, like true or "apple"?
+
+
+let result = average(10,20);
+
+console.log("the average is " + result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
