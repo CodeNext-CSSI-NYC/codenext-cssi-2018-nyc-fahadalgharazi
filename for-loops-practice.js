@@ -29,11 +29,12 @@ function numberPrint(num1){
 
 // 3. Print out all of the odd numbers between 300 and 350 (using a loop).
 if(i = 300;i<=350;i++){
-	
+	console.log(i);
 }
 	
 
-// 4. Write a function that, given a string of any length,
+// 4. Write a function that, given a string of any length
+,
 // returns true if it contains at least one space.
 function containsSpace(str) {
 
