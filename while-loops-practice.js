@@ -37,14 +37,14 @@ const readline = require("readline-sync");
 // Until the user enters the correct password (which is chosen by you in advance),
 // the program will keep asking for all eternity. When they finally do enter the
 // correct password, exit the loop and print a congratulatory message.
-let pass = "password";
-let answer = readline.question("type the password:");
- while(pass != answer ){
- 	console.log(answer = readline.question("type the password:"));
- 	if(pass == answer){
- 		console.log("congratulatory");
- 	}
-}
+// let pass = "password";
+// let answer = readline.question("type the password:");
+//  while(pass != answer ){
+//  	console.log(answer = readline.question("type the password:"));
+//  	if(pass == answer){
+//  		console.log("congratulatory");
+//  	}
+// }
 
 // Hint: Declare userInput outside the loop and initialize it to the value of readline.question("Enter password: ").
 // The while loop will check if userInput matches the correct password.
