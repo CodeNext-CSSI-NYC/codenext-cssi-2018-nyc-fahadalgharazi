@@ -1,7 +1,7 @@
 // Author: Fahad algharazi
 var readline = require("readline-sync");
 console.log("welcome to the CHANGE MACHINE");
- var cents = readline.question("Enter the cents as a positive integer");
+ var cents = readline.question("Enter the cents as a positive integer =-=->");
 //  var q = 25;
 //  var quarter;  
 //  var nickel;
