@@ -1,4 +1,5 @@
 // Author: fahad algharazi
+// Author: fahad algharazi
 var readline = require("readline-sync");
 
 console.log("Welcome to super Easter Predictor");
