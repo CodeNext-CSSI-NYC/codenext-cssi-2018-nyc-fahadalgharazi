@@ -1,6 +1,6 @@
 //Author:Fahad Algharazi
-//console.clear();
-
+console.clear();
+let readline = require("readline-sync");
 // 1. Do each step below on a separate line
 		// Create an array with exactly five numbers.
 		// Store the second value from the array in a variable named secondValue.
@@ -154,6 +154,20 @@
 // Assuming your original array was [2,6,4,3,1,7] ...
 // When it is done running, you should see [7, 1, 3, 4, 6, 2] (it was reversed!)
 
+// let nums = [1,2,3,4,5,6];
+// let reverse = [];
+// 	for(let i = nums.length ;i>=1;i--){
+// 		num = i ;
+// 		reverse.push(i);
+
+
+// }
+// console.log(nums);
+// console.log(reverse);
+
+
+
+
 
 
 // 8. Make a new empty array.
@@ -165,7 +179,17 @@
 // For example, if they type in 4, and then type in c, a, k, e when asked
 // Then at the end it should just say "cake"
 
+// let empty = [];
+// let ask = readline.question("how many letters would you like to type in-=-=->");
+// for(i = 0;i<ask; i++){
+// let letter = readline.question("Enter a letter=-=->");
+// empty.push(letter);
 
+
+
+// }
+// let result = empty.join("");
+// console.log(result);
 
 // 9. Make a new empty array.
 // Write a for loop that run ten times. Each time, it should add one random number to your array.
