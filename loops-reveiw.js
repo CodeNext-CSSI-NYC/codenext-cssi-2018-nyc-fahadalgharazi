@@ -8,14 +8,14 @@ let readline = require("readline-sync");
 // Keep asking them until they get it right.
 // At the end, tell them how many guesses it took them.
 
-let answer = readline.question("whats the password?=-=->");
-let password = "password";
-let counter = 0;
-while(password!=answer){
-	answer = readline.question("try again?=-=->");
-	counter++;
-}
-console.log("you did it after " + counter + "trys"); 
+// let answer = readline.question("whats the password?=-=->");
+// let password = "password";
+// let counter = 0;
+// while(password!=answer){
+// 	answer = readline.question("try again?=-=->");
+// 	counter++;
+// }
+// console.log("you did it after " + counter + "trys"); 
 
 
 
@@ -27,13 +27,33 @@ console.log("you did it after " + counter + "trys");
 
 // 2. Make a for loop that prints out the numbers from 0 to 9.
 
+// for(i = 0;i<= 9;i++){
+// 	console.log(i);
+// }
+
+
+
+
+
 
 // 3. Make a for loop that prints out the even numbers from 0 to 100.
 // Note that there are two ways to do this. One way is to use i += 2 instead of i++.
 // This makes i go up by two each time, so that it skips odd numbers.
 // The other way is to use an if statement inside the for loop that only prints
 // even numbers. Make sure you can do it both ways. (As in, actually do it both ways.)
+// for(i = 0; i<=100; i+= 2 ){
+// 	console.log(i);
 
+// }
+
+
+// for(i = 0 ;i<=100; i++){
+// 	if(i % 2 == 0 ){
+// 		console.log(i);
+// 	}
+
+
+// }
 
 
 // 4. Make a variable called sum that is equal to 0.
@@ -43,6 +63,13 @@ console.log("you did it after " + counter + "trys");
 // But it might take many more attempts if I type 1, 1, 1, 1, 1 ....
 
 
+// let sum = 100;
+// let num = readline.question("type in a number");
+// while(sum > num){
+//  num = readline.question("type in a number");
+
+// }
+
 
 // 5a. Use a loop to make this pattern:
 // *
@@ -51,6 +78,8 @@ console.log("you did it after " + counter + "trys");
 // ****
 // *****
 // ******
+
+
 
 
 // 5b. Use a loop to make this pattern:
