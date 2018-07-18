@@ -12,14 +12,14 @@
 function hasDuplicate(arr) {
 	for(i = 0;i< arr.length;i++){
 		let word = arr[i];
-		for(j=0;j<arr.length;j++){
-			let same = arr[j];
+		for(j=0;j<word.length;j++){
+			let same = 
 			if(same == word);
-				console.log(same);
+				console.log(same + " is the duplicate");
 		}
 
 	}
-}let array = ["cat","cat","bat"];
+}let array = ["cat","cat","bataa"];
 	hasDuplicate(array);
 // Here are some examples you can use to test
 // let arr1 = [3,4,5,6,7,1,2,5,9];
