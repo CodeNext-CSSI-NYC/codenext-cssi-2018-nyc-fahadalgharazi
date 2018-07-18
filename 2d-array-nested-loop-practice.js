@@ -75,14 +75,14 @@ let fruits = [
 	// have at least two rows and at least two columns, and at least 6 items overall.
 	// Print out a few values from your 2D array using the rol/column indexes.
 	// Make sure that what gets printed matches your expectations.
-// Try changing a few values in the 2D array using row/column indexes.
-// Print it out to make sure that your changes worked as intended.
-let own = [["fat","cat","sat"],
-		   ["dog","log","smog"]
-];
-console.log(own[0][1]);
-own[1][2] = "cog";
-console.log(own);
+	// Try changing a few values in the 2D array using row/column indexes.
+	// Print it out to make sure that your changes worked as intended.
+// let own = [["fat","cat","sat"],
+// 		   ["dog","log","smog"]
+// ];
+// console.log(own[0][1]);
+// own[1][2] = "cog";
+// console.log(own);
 
 
 
@@ -94,7 +94,9 @@ console.log(own);
 // and other cases with fruits that are not.
 
 
-
+function arstr(){
+	
+}
 
 
 
