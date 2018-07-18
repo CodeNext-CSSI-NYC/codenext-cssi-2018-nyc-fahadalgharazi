@@ -21,7 +21,7 @@
 
 // 1. Try to make this one. Hint: you will need to compare i and j in order to
 // decide when to add * onto the strings that represent each row.
-// let numRows = 1000;
+// let numRows = 10;
 // for(i = 1;i<=numRows;i++){
 // 	let row = "";
 // 	for(j = 1;j<=i;j++){
@@ -54,7 +54,14 @@
 // X------X
 // XXXXXXXX
 
-
+// let numRows = 6;
+// console.log("XXXXXXXX");
+// for(i = 0;i<numRows;i++){
+// 		let row = "";
+// 		row+="X------X";
+// 		console.log(row);
+// 	}
+// 	console.log("XXXXXXXX");
 
 
 
