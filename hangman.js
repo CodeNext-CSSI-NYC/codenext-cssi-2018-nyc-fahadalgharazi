@@ -26,7 +26,7 @@ console.log(randWord);
 let tracker = [];
 for(i = 0; i < randWord.length; i++){
 	tracker.push("_");
-	tracker["_"] = space;
+	tracker[i] = space[i];
 
 }
 
