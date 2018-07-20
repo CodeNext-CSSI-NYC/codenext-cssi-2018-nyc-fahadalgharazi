@@ -109,7 +109,17 @@ function checkRows() {
 // If any of those three calls returns "X" or "O", then this function should
 // return the same "X" or "O". If all three return null, then this should as well.
 function checkColumns() {
-
+   let firstColumnsResult = isTicTacToe(board[1][0],board[1][1],board[1][2]);
+   let secondColumnsResult = isTicTacToe(board[1][0],board[1][1],board[1][2]);
+   let thirdColumnsResult = isTicTacToe(board[1][0],board[1][1],board[1][2]);
+   if(firstColumnsResult != null){
+   	return board[0][0];
+   }
+   else if(secondColumnsResult != null){
+   	return board[0][1];
+   }
+   else(thirdColumnsResult != null)
+   	return board[0][2]
 }
 
 
@@ -117,15 +127,43 @@ function checkColumns() {
 // If any of those two calls returns "X" or "O", then this function should
 // return the same "X" or "O". If both return null, then this should as well.
 function checkDiagonals() {
+let firstDiagonalsResult = isTicTacToe(board[2][0],board[2][1],board[2][2]);
+let secondDiagonalsResult = isTicTacToe(board[2][0],board[2][1],board[2][2]);
+let thirdDiagonalsResult = isTicTacToe(board[2][0],board[2][1],board[2][2]);
 
+	if(firstcheckDiagonalsResult != null){
+   	return board[0][0];
+   }
+   else if(secondcheckDiagonalsResult != null){
+   	return board[2][0];
+   }
+   else //if(thirdcheckDiagonalsResult != null){
+{
+	return null;
+   }
 }
+
+
+
+
+
+
 
 // This function should loop through the whole board. If any of the spots have "_"
 // it should return false, since the board is not full. Otherwise it should return true.
 // This is used to identify tie games (when the board is full but there is no winner).
 function isBoardFull() {
-
+for(i = 0;i<3;i++){
+	for(j = 0;j<3;j++){
+		if(board[i][j] != "_"){
+			return true;
+		}else if(board[i][j] == "_"){
+		return false;
+	}
+		
+	}
 }
+
 
 
 
